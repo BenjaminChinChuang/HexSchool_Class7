@@ -1,0 +1,17 @@
+/*------------Education CSS----------------*/
+.education>.title>.sub-title {
+    width: 64px;
+}
+
+.education>.title>.sub-title-en {
+    width: 131px;
+}
+
+.education .content-block {
+    line-height: 33px;
+    margin-bottom: 32px;
+}
+
+.education .content-block:last-child {
+    margin-bottom: 24px;
+}

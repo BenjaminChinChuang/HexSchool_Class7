@@ -1,0 +1,313 @@
+@import './cssreset.css';
+
+* {
+    color: #000;
+}
+
+body {
+    background-color: #fff;
+}
+
+.wrap {
+    width: 1920px;
+    /* height: 3047px; */
+    height: 2646px;
+    background-color: transparent;
+    z-index: 100;
+}
+
+.skill-background {
+    position: absolute;
+    width: 1920px;
+    height: 360px;
+    top: 1356px;
+    /* margin-top: 1356px;
+    margin-bottom: 930px; */
+    background-color: #96A9C4;
+    z-index: -1;
+}
+
+/*------------共用 CSS----------------*/
+.wrap>* {
+    display: block;
+    margin: 0 360px 48px 360px;
+    width: 1200px;
+}
+
+.title {
+    height: 54px;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.title>.sub-title {
+    font-size: 32px;
+    text-align: center;
+    line-height: 45px;
+    font-weight: bolder;
+}
+
+.title>.sub-title-en {
+    font-size: 24px;
+    text-align: center;
+    line-height: 32px;
+    margin-left: 16px;
+    color: #A00404;
+    font-weight: bolder;
+}
+
+.dot {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: #96A9C4;
+    margin-left: 16px;
+    margin-right: 16px;
+    /* margin-top: 8px; */
+}
+
+.line {
+    width: 1px;
+    height: 50px;
+    background-color: #96A9C4;
+}
+
+.dot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.detail {
+    width: 1152px;
+    display: flex;
+}
+
+.content {
+    font-size: 24px;
+}
+
+.content-block {
+    line-height: 35px;
+    margin-bottom: 24px;
+}
+
+/*------------Profile Name CSS----------------*/
+.profile-name-container {
+    height: 252px;
+    border-bottom: 2px solid #000;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.profile-name-container .main-name {
+    width: 288px;
+    height: 180px;
+    color: #000;
+    font-size: 80px;
+    padding-top: 48px;
+    padding-bottom: 22px;
+}
+
+/*------------Profile Photo CSS----------------*/
+.profile-photo {
+    height: 324px;
+}
+
+/*------------Profile CSS----------------*/
+.profile>.title>.sub-title {
+    width: 128px;
+}
+
+.profile>.title>.sub-title-en {
+    width: 95px;
+}
+
+/*------------Education CSS----------------*/
+.education>.title>.sub-title {
+    width: 64px;
+}
+
+.education>.title>.sub-title-en {
+    width: 131px;
+}
+
+.education .content-block {
+    line-height: 33px;
+    margin-bottom: 32px;
+}
+
+.education .content-block:last-child {
+    margin-bottom: 24px;
+}
+
+/*------------Skill CSS----------------*/
+.skill {
+    height: 494px;
+    box-sizing: border-box;
+    padding: 24px 102px;
+    background-color: #415165;
+    margin-bottom: 72px;
+}
+
+.skill>.title {
+    width: 996px;
+    justify-content: center;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 40px;
+}
+
+.skill>.title>.sub-title,
+.skill>.title>.sub-title-en {
+    color: #fff;
+}
+
+.skill-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-border {
+    width: 216px;
+    height: 321.5px;
+    border-left: 1px solid #96A9C4;
+}
+
+.skill-detail-block {
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 32px;
+    margin-left: 24px;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+/*------------Working Experience CSS----------------*/
+.working-detail-container {
+    height: 647px;
+    border-left: 1px solid #96A9C4;
+    margin-left: 24px;
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+}
+
+.working-item {
+    margin-left: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.working-item:last-child {
+    margin-bottom: 0px;
+}
+
+.working-title {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+    line-height: 33px;
+}
+
+.working-logo {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 8px;
+}
+
+.working-description {
+    font-size: 20px;
+    line-height: 28px;
+    display: block;
+    width: 642px;
+    height: 154px;
+}
+
+.working-description.simtree-description {
+    width: 400px;
+    height: 28px;
+}
+
+.six-school {
+    width: 89.5px;
+    height: 66.85px;
+    margin-bottom: 8.15px;
+    margin-left: 0.5px;
+}
+
+.simtree {
+    width: 72px;
+    height: 73px;
+}
+
+/*------------Footer CSS----------------*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 24px;
+    width: 1872px;
+    height: 353px;
+    background-color: #415165;
+}
+
+.footer>.title {
+    width: 1200px;
+    justify-content: center;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 32px;
+}
+
+.footer>.title>.sub-title {
+    font-size: 32px;
+    line-height: 45px;
+    color: #fff;
+}
+
+.footer>.title>.sub-title-en {
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.footer-detail {
+    /* margin-top: 32px; */
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-detail-block {
+    font-size: 24px;
+    font-weight: lighter;
+    margin-bottom: 16px;
+    text-align: center;
+    color: #fff;
+    line-height: 33px;
+}
+
+.footer-detail-block:last-child {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.footer-detail-block:last-child img {
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin-left: 24px;
+}
+
+.footer-detail-block:last-child img:first-child {
+    margin-left: 0px;
+}

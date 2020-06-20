@@ -1,0 +1,68 @@
+/*------------共用 CSS----------------*/
+.wrap>* {
+    display: block;
+    margin: 0 360px 48px 360px;
+    width: 1200px;
+}
+
+.title {
+    height: 54px;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.title>.sub-title {
+    font-size: 32px;
+    text-align: center;
+    line-height: 45px;
+    font-weight: bolder;
+}
+
+.title>.sub-title-en {
+    font-size: 24px;
+    text-align: center;
+    line-height: 32px;
+    margin-left: 16px;
+    color: #A00404;
+    font-weight: bolder;
+}
+
+.dot {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: #96A9C4;
+    margin-left: 16px;
+    margin-right: 16px;
+    /* margin-top: 8px; */
+}
+
+.line {
+    width: 1px;
+    height: 50px;
+    background-color: #96A9C4;
+}
+
+.dot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.detail {
+    width: 1152px;
+    display: flex;
+}
+
+.content {
+    font-size: 24px;
+}
+
+.content-block {
+    line-height: 35px;
+    margin-bottom: 24px;
+}

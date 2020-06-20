@@ -1,0 +1,30 @@
+/*------------Profile Name CSS----------------*/
+.profile-name-container {
+    height: 252px;
+    border-bottom: 2px solid #000;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.profile-name-container .main-name {
+    width: 288px;
+    height: 180px;
+    color: #000;
+    font-size: 80px;
+    padding-top: 48px;
+    padding-bottom: 22px;
+}
+
+/*------------Profile Photo CSS----------------*/
+.profile-photo {
+    height: 324px;
+}
+
+/*------------Profile CSS----------------*/
+.profile>.title>.sub-title {
+    width: 128px;
+}
+
+.profile>.title>.sub-title-en {
+    width: 95px;
+}

@@ -1,0 +1,41 @@
+/*------------Skill CSS----------------*/
+.skill {
+    height: 494px;
+    box-sizing: border-box;
+    padding: 24px 102px;
+    background-color: #415165;
+    margin-bottom: 72px;
+}
+
+.skill>.title {
+    width: 996px;
+    justify-content: center;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 40px;
+}
+
+.skill>.title>.sub-title,
+.skill>.title>.sub-title-en {
+    color: #fff;
+}
+
+.skill-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-border {
+    width: 216px;
+    height: 321.5px;
+    border-left: 1px solid #96A9C4;
+}
+
+.skill-detail-block {
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 32px;
+    margin-left: 24px;
+    margin-bottom: 16px;
+    color: #fff;
+}

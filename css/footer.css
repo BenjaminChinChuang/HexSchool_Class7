@@ -1,0 +1,63 @@
+/*------------Footer CSS----------------*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 24px;
+    width: 1872px;
+    height: 353px;
+    background-color: #415165;
+}
+
+.footer>.title {
+    width: 1200px;
+    justify-content: center;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 32px;
+}
+
+.footer>.title>.sub-title {
+    font-size: 32px;
+    line-height: 45px;
+    color: #fff;
+}
+
+.footer>.title>.sub-title-en {
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.footer-detail {
+    /* margin-top: 32px; */
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-detail-block {
+    font-size: 24px;
+    font-weight: lighter;
+    margin-bottom: 16px;
+    text-align: center;
+    color: #fff;
+    line-height: 33px;
+}
+
+.footer-detail-block:last-child {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.footer-detail-block:last-child img {
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin-left: 24px;
+}
+
+.footer-detail-block:last-child img:first-child {
+    margin-left: 0px;
+}
